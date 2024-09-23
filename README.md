@@ -8,11 +8,14 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Initialize Parameters: Start by initializing the parameters (weights) theta with random values or zeros.
-2.  Compute Sigmoid Function: Define the sigmoid function that maps any real-valued number to a value between 0 and 1.
-3.  Compute Loss Function: Define the loss function, which measures the error between the predicted output and the actual output.
-4. Gradient Descent Optimization: Implement the gradient descent algorithm to minimize the loss function. In each iteration, compute the gradient of the loss function with respect to the parameters (theta), and update the parameters in the opposite direction of the gradient to minimize the loss.
-5.Iterate Until Convergence: Repeat the gradient descent steps for a predefined number of iterations or until convergence criteria are met. Convergence can be determined when the change in the loss function between iterations becomes very small or when the parameters (theta) stop changing significantly.
+STEP 1: Initialize Parameters: Start by initializing the parameters (weights) theta with random values or zeros.
+
+STEP 2:  Compute Sigmoid Function: Define the sigmoid function that maps any real-valued number to a value between 0 and 1.
+
+STEP 3:  Compute Loss Function: Define the loss function, which measures the error between the predicted output and the actual output.
+STEP 4: Gradient Descent Optimization: Implement the gradient descent algorithm to minimize the loss function. In each iteration, compute the gradient of the loss function with respect to the parameters (theta), and update the parameters in the opposite direction of the gradient to minimize the loss.
+
+STEP 5:Iterate Until Convergence: Repeat the gradient descent steps for a predefined number of iterations or until convergence criteria are met. Convergence can be determined when the change in the loss function between iterations becomes very small or when the parameters (theta) stop changing significantly.
 
 ## Program:
 /*
@@ -85,33 +88,33 @@ print(y_prednew)
 
 ## Output:
 
-Dataset
+## Dataset
 
 ![image](https://github.com/preethi2831/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/155142246/5bfd1bab-c917-439a-b704-ccc834b3c6bb)
 
 
-Data types
+## Data types
 
 ![image](https://github.com/preethi2831/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/155142246/673238d6-78f7-4f11-ae12-7a4d37373d34)
 
-New dataset
+## New dataset
 
 ![image](https://github.com/preethi2831/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/155142246/2f3befdc-e483-4622-b528-d094fd91bcf4)
 
-Y values
+## Y values
 
 ![image](https://github.com/preethi2831/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/155142246/62bcf3a1-a6d6-4105-852d-31b05f5cab2d)
 
-Accuracy
+## Accuracy
 
 ![image](https://github.com/preethi2831/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/155142246/4b336b75-ee0a-488d-898a-ec7c66288674)
 
 
-Y pred
+## Y pred
 
 ![image](https://github.com/preethi2831/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/155142246/ede9b220-c365-4f22-914c-5d0b62c1c720)
 
-New Y
+## New Y
 
 ![image](https://github.com/preethi2831/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/155142246/ea7536cc-4ec7-443b-8c69-82a311110908)
 
